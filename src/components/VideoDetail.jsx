@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom';
 import { Typography, Box, Stack} from '@mui/material';
 import { CheckCircle } from '@mui/icons-material';
 
-import  Videos  from './Videos'
 import { fetchFromAPI } from '../utils/fetchFromAPI';
 
 const VideoDetail = () => {

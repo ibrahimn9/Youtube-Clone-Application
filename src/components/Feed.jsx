@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SideBar from "./SideBar";
-import { Stack, Box, Typography, Button, Divider } from "@mui/material";
+import { Stack, Box, Typography, Button } from "@mui/material";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
 import Videos from "./Videos";
 

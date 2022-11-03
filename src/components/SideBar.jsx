@@ -1,14 +1,4 @@
-import {
-  Drawer,
-  List,
-  ListItem,
-  ListItemButton,
-  ListItemIcon,
-  ListItemText,
-  Divider,
-  Box,
-  Stack,
-} from "@mui/material";
+import { Stack } from "@mui/material";
 import { categories } from "../utils/constante";
 
 const SideBar = ({ open, selectedCategory, setSelectedCategory }) => {
